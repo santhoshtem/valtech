@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Started test...]]>
+    </line>
+    <line>
+      <![CDATA[Asserted Latest News]]>
+    </line>
+    <line>
+      <![CDATA[Completed Assert of Work Header text]]>
+    </line>
+    <line>
+      <![CDATA[Ended test...]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85230" started-at="2017-01-10T17:26:31Z" finished-at="2017-01-10T17:27:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85230" started-at="2017-01-10T17:26:31Z" finished-at="2017-01-10T17:27:56Z">
+      <class name="tests.ValtechTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ValtechTest@419431dc]" name="setup" is-config="true" duration-ms="26809" started-at="2017-01-10T17:26:31Z" finished-at="2017-01-10T17:26:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Started test...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValtechTestRun()[pri:0, instance:tests.ValtechTest@419431dc]" name="ValtechTestRun" duration-ms="57426" started-at="2017-01-10T17:26:57Z" finished-at="2017-01-10T17:27:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Asserted Latest News]]>
+            </line>
+            <line>
+              <![CDATA[Completed Assert of Work Header text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValtechTestRun -->
+        <test-method status="PASS" signature="testCleanup()[pri:0, instance:tests.ValtechTest@419431dc]" name="testCleanup" is-config="true" duration-ms="951" started-at="2017-01-10T17:27:55Z" finished-at="2017-01-10T17:27:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Ended test...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCleanup -->
+      </class> <!-- tests.ValtechTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
